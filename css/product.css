@@ -1,0 +1,511 @@
+/* html definitions*/
+body{
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	margin-top: 0px;
+	background-color: #fff;
+	color: #404040
+	}
+
+h1 {
+	margin: 0px 0px 20px 0px;
+	font-size: x-large; 
+	color: #333
+	}
+
+h2 { 
+	margin-top: 0px;
+	padding: 0px;
+	font-size: large; 
+	}
+
+h3 {
+	margin: 0px;
+	font-size: large; 	
+	color: black
+	}
+h4 {
+	margin-top: 0;
+	font-size: medium; 	
+	color: black
+	}
+hr { clear: both }
+
+p {
+	font-size: 10pt
+	}
+
+a {
+	font-size: small;
+	color: #3300cc
+	}
+
+a:hover {
+	color: #0099cc;
+	}
+
+img {
+	border: 0px
+	}
+
+/* header classes*/
+.header{
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.oup_logo {
+	background-color: #000066;
+	height: 66px;
+	vertical-align: top; 
+	}
+
+.banner {
+	background-color: #fff; 
+	border: 0px; 
+	vertical-align: top
+	}
+
+.book_logo{
+	background-color: #fff; 
+	border: 0px; 
+	vertical-align: top
+	}
+
+/* breadcrumb*/
+.bc_padding {
+	padding: 0px;
+	margin: 0px;
+	font-size: 0px;
+	}
+
+.breadcrumb{
+	background: #96d1ef url(../images/product_breadcrumb.gif) no-repeat top right;	
+	color: #333333;
+	font-size: x-small;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4px 0px 4px 6px;
+	border: 1px solid #999;
+	border-bottom-color: #999;
+	}
+
+.breadcrumb a{
+	color: #333333;
+	font-size: x-small;
+	text-decoration: none
+	}
+
+.breadcrumb a:hover {	
+	color: #333333;
+	text-decoration: underline
+	}
+
+/* navigation styles */
+
+.navigation {
+	background: #fff url(../images/product_bevelleft.gif) repeat-y top left;
+	vertical-align: top;
+	width: 172px;
+	margin: 0px;
+	padding: 0px;
+	border-left: 1px solid #B1B191;	
+	border-right: 1px solid #B1B191;
+	}
+
+.book_image {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 31px
+	}
+
+.navigation_top {
+	display: none
+	}
+
+.choice {
+	text-align: left;
+	width: 170px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1px;	
+	}
+
+.choice a {
+	font-size: small;
+	width: 159px;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	border-top: 0px solid white;
+	border-bottom:  1px solid #B1B191;
+	background-image: url(../images/nmv_arrow.gif);
+	background-position: right;
+	padding: 6px;
+	background-repeat: no-repeat;
+	}
+
+.choice a:hover {	
+	border-top-color: #C2CED3;
+	background-image: url(../images/nmv_arrowselected.gif);
+	}
+	
+.choice2 {
+	text-align: left;
+	text-indent: 15px;
+	width: 160px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1px;	
+	background-color:#e6f5fc;
+	}
+
+.choice2 a {
+	font-size:10px;
+	width: 160px;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	border-top: 0px solid white;
+	border-bottom:  1px solid #B1B191;
+	background-image: url(../images/nmv_arrow.gif);
+	background-position: right;
+	padding: 6px;
+	background-repeat: no-repeat;
+	}
+
+.choice2 a:hover {	
+	border-top-color: #C2CED3;
+	background-image: url(../images/nmv_arrowselected.gif);
+	}
+
+.choiceend {
+	text-align: left;
+	width: 160px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1px;	
+	}
+
+.choiceend a {
+	font-size: small;
+	width: 160px;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	border-top: 0px solid white;
+	border-bottom:  0px solid #B1B191;
+	background-image: url(../images/nmv_arrow.gif);
+	background-position: right;
+	padding: 6px;
+	background-repeat: no-repeat;
+	}
+
+.choiceend a:hover {	
+	border-top-color: #C2CED3;
+	background-image: url(../images/nmv_arrowselected.gif);
+	}
+
+/* middle matter*/
+.middle_matter {
+
+	vertical-align:top;
+	border: 0px solid #B1B191;
+	border-top: 0px;
+	border-bottom-color: #fff;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fff url(../images/product_bevelright.gif) repeat-y top right;
+	}
+	
+	
+.content {
+	background-color: none;
+	vertical-align: top;
+	width: 580px;
+	padding: 0px;
+	width: 589px;
+	margin: 0px;
+	border: 0px;
+	border-top: 0px solid white
+	}
+
+#children {
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+	list-style-position: outside
+	}
+#children .column {
+	width: 50%;
+	padding: 10px 0 10px 0;
+	margin: 0;
+	float: left
+	}
+#children li{
+	margin: 0px;
+	padding:0px;
+	}
+
+#children a {
+	width: 100%;
+	margin-bottom: 0px;
+	padding-bottom: 4px;
+	border-bottom: 1px dashed #eee;
+	font-weight: bold;
+	display: block;	
+	font-size: small;
+	text-decoration: none;
+	background-image: url(../images/nmv_arrow.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	}
+
+#children a:hover {
+	background-image: url(../images/nmv_arrowselected.gif);
+	}
+	
+	
+#children2 {
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+	list-style-position: outside
+	}
+#children2 .column {
+	width: 50%;
+	padding: 10px 0 10px 0;
+	margin: 0;
+	float: left
+	}
+#children2 li{
+	margin: 0px;
+	padding:0px;
+	}
+
+#children2 a {
+	width: 100%;
+	margin-bottom: 0px;
+	padding-bottom: 4px;
+	font-weight: bold;
+	display: block;	
+	font-size: small;
+	text-decoration: none;
+
+	}
+
+#children2 a:hover {
+	background-image: url();
+	}
+
+/* bottom styles */
+.home_bottom {	
+	background: #96d1ef url(../images/product_bottom.gif) no-repeat top right;	
+	border: 1px solid #999;
+	border-top-color: #999;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px
+	}
+
+.home_bottom td {
+	background-image:  url(../images/product_bc_bevelleft.gif);  
+	background-repeat: repeat-y; 
+	background-position: top left;
+	height: 18px	
+	}
+
+.bottom td {
+	background-image:  url(../images/product_bc_bevelleft.gif); 
+	background-repeat: repeat-y; 
+	background-position: top left;
+	}
+
+#copyright {
+	margin-left: auto;
+	margin-right: auto;
+	width: 757px;
+	padding-left: 10px;
+	}
+
+/* Homepage styles */ 	
+
+.home_page {
+	background-image: url(../images/product_bevelleft.gif);
+	background-repeat: repeat-y; 
+	background-position: top left;
+	vertical-align: top;
+	margin: 0px;
+	padding: 20px 0px 30px 150px;
+	border-left: 1px solid #B1B191
+	}
+
+#audiobutton {
+	display: block;
+	float: left;
+	border: 0px;
+	padding: 0px;
+	margin: 0px 40px 0px 0px;
+	height: 200px;
+	width: 200px;
+	text-decoration: none;
+	background: #fff url(../../Listening_and_Speaking/images/brightlightsaudio_orange.jpg) no-repeat top left
+	}
+
+#cdrombutton {
+	display: block;
+	float: left;
+	border: 0px;
+	padding: 0px;
+	margin: 0px ;
+	height: 200px;
+	width: 200px;
+	text-decoration: none;
+	background: #fff url(../../Listening_and_Speaking/images/brightlightscdrom_orange.jpg) no-repeat top left
+	}
+
+#audiobutton:hover {
+	background-image: url(../../Listening_and_Speaking/images/brightlightsaudio_green.jpg)}
+
+#cdrombutton:hover {
+	background-image: url(../../Listening_and_Speaking/images/brightlightscdrom_green.jpg)}
+
+/* Level page styles */
+.exercise {
+	padding: 10px 20px 20px 20px;
+	margin: 0px;
+	width: 523px;
+	}
+
+dl {
+	font-size: small;
+	margin: 0px;
+	padding: 0px
+	}
+
+dt	{
+	font-weight: bold;
+	margin: 20px 0px 5px 30px;
+	padding: 0px
+	}
+
+dd	{
+	margin: 0px;
+	padding: 0px;
+	}
+
+dd	a {
+	margin: 0px;
+	display: block;
+	height: 24px;
+	padding-left: 30px;
+	background-image: url(../../Listening_and_Speaking/images/mp3_icon.gif);
+	background-position: left;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	}
+
+dd	a:hover {
+	background-image: url(../../Listening_and_Speaking/images/mp3_icon_orange.gif);
+	text-decoration: underline;
+	}
+
+.menus {
+	background: #E9EDEF url(../../Listening_and_Speaking/images/nmv_bevelright.gif) repeat-y top right;
+	border-bottom: 1px solid #B1B191;
+	}
+
+.form {
+	height: 25px;
+	padding: 3px 0px 0px 10px;
+	margin: 0px;
+	font-size: small;
+	}
+
+.ppico{
+	margin: 0px;
+	padding: 2px 0px 0px 4px;
+	}
+	
+/*Kat's menu additions*/
+.imgcenter {
+
+ 	padding-left: 75px;
+ 	}
+	
+	
+.txtcenter {
+
+ 	padding-left: 90px;
+ 	}
+	
+.dashln {
+	border-bottom: 1px dashed #eee;
+	width: 100%;
+	clear: both;
+	float: left;
+	height: 38px;
+}
+.dashln2 {
+
+	border-bottom: 1px dashed #eee;
+	width: 100%;
+	clear: both;
+	float: left;
+	height: 60px;
+}
+.dashln3 {
+	width: 100%;
+	clear: both;
+	float: left;
+	height: 60px;
+}
+.dashln4 {
+	border-bottom: 1px dashed #eee;
+	width: 100%;
+	clear: both;
+	float: left;
+	height: 45px;
+}
+
+.audioTrackL {
+	float: left;
+	width: 28px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+
+.audioTrackR {
+	font-size: small;
+	font-weight: bold;
+	color: #3300cc;
+	padding-top: 10px;
+	float: left;
+	width: 480px;
+}
+
+.AudioPlayer {
+	float: left;
+	height: 20px;
+	width: 210px;
+	padding-top: 4px;
+}
+.AudioText {
+	float: left;
+	width: 235px;
+	padding-top: 6px;
+	padding-left: 3px;
+}
+
+.audioDownload {
+	float: right;
+	width: 200px;
+	font-size: small;
+	font-weight: bold;
+	color: #3300cc;
+	padding-top: 10px;
+	background-image: none;
+	text-align: right;
+	padding-right: 10px;
+}

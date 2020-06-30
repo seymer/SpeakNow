@@ -1,0 +1,13 @@
+/* bottom styles */
+.bottom {	
+	background: #96d1ef url(../images/product_bottom.gif) no-repeat top right;	
+	border: 1px solid #999;
+	border-top-color: #999;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px
+	}
+
+a {
+	color: #3300cc;
+	}

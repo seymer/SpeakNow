@@ -1,0 +1,249 @@
+body {
+font-family: Helvetica, Verdana, Arial, sans-serif;
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;}
+
+#start {
+margin:20px}
+
+#accept{
+text-align:center;
+margin-top:20px;
+}
+
+#accept a{
+font-size: medium;
+padding:5px;
+width:150px;
+border:1px solid #ccc;
+background-color: #eee;
+}
+
+.imagetable {
+border-style: solid;
+border-color: silver;
+}
+
+.imagetable img {
+text-align: center;
+display : inline;
+}
+
+.imagetable td {
+text-align: center; 
+height: 150px;
+width: 250px;
+}
+
+img {
+border: 0;
+}
+
+.headerunitimage {
+display: block;
+}
+
+table {
+padding: 0px;
+margin: 0px;
+}
+
+p, ol {  
+font-size: 12px; color: #333333;
+font-style: normal;
+font-weight: normal;
+}
+
+a:link {
+font-size: 12px;
+font-style: normal;
+line-height: normal;
+color: #0033CC;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:visited {
+font-size: 12px;
+font-style: normal;
+line-height: normal;
+color: #0066CC;
+text-decoration: none;
+font-weight: bold;}
+
+a:active {
+font-size: 12px;
+font-style: normal;
+line-height: normal;
+color: #0066CC;
+text-decoration: none;
+font-weight: bold;}
+
+a:hover {
+font-size: 12px;
+font-style: normal;
+line-height: normal;
+color: #0066CC;
+font-weight: bold;
+text-decoration: underline;
+}
+
+h1 {
+font-size: 14px;
+font-weight: bold;
+color: #333333;
+}
+
+h2 {
+font-size: 18px;
+font-weight: bold;
+color: #000000;
+}
+
+h3 {
+font-size: 16px;
+font-weight: bold;
+color: #0033hh;
+}
+
+
+/*Simon's additions*/
+td h2 {
+display:inline;
+}
+
+td h3 {
+display:inline;
+}
+
+/*Kat's additions for menu page*/
+
+
+#menu {
+	width: 960px;
+	white-space: nowrap;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#menu ul {
+	list-style: none;
+}
+
+#menu ul li, #menu ul li a {
+	float: left;
+	display: block;
+}
+
+#menu ul li#opt1 {
+	margin-top: 50px;
+	float: left;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#menu ul li#opt1, #menu ul li#opt1 a {
+	width: 205px; 
+	height: 150px;
+	float: left;
+}
+
+#menu ul li#opt2 {
+	margin-top: 50px;
+	float: left;
+	margin-right: 15px;
+}
+#menu ul li#opt2, #menu ul li#opt2 a {
+	width: 205px; 
+	height: 150px;
+}
+
+#menu ul li#opt3 {
+	margin-top: 50px;
+	float: left;
+	margin-right: 15px;
+}
+#menu ul li#opt3, #menu ul li#opt3 a {
+	width: 205px; 
+	height: 150px;
+}
+
+#menu ul li#opt4 {
+	margin-top: 50px;
+	float: left;
+}
+#menu ul li#opt4, #menu ul li#opt4 a {
+	width: 205px; 
+	height: 150px;
+}
+
+#menu ul li#opt5 {
+	margin-top: 25px;
+	float: left;
+	margin-right: 25px;
+	margin-left: 115px;
+}
+#menu ul li#opt5, #menu ul li#opt5 a {
+	width: 205px; 
+	height: 150px;
+}
+
+#menu ul li#opt6 {
+	margin-top: 25px;
+	float: left;
+	margin-right: 20px;
+}
+#menu ul li#opt6, #menu ul li#opt6 a {
+	width: 205px; 
+	height: 150px;
+}
+
+#menu ul li#opt7 {
+	margin-top: 25px;
+	float: left;
+	margin-right: 15px;
+}
+#menu ul li#opt7, #menu ul li#opt7 a {
+	width: 205px; 
+	height: 150px;
+}
+
+#menu ul li#opt1 { background: url(../graphics/pt1_button.jpg) no-repeat 0 0; }
+#menu ul li#opt2 { background: url(../graphics/tp1_button.jpg) no-repeat 0 0; }
+#menu ul li#opt3 { background: url(../graphics/q1_button.jpg) no-repeat 0 0; }
+#menu ul li#opt4 { background: url(../graphics/sag1_button.jpg) no-repeat 0 0; }
+#menu ul li#opt5 { background: url(../graphics/me1_button.jpg) no-repeat 0 0; }
+#menu ul li#opt6 { background: url(../graphics/fe1_button.jpg) no-repeat 0 0; }
+#menu ul li#opt7 { background: url(../graphics/cavs1_button.jpg) no-repeat 0 0; }
+
+#menu ul li#opt1 a:hover { background: url(../graphics/pt1_button_ro.jpg) no-repeat 0 0; }
+#menu ul li#opt2 a:hover { background: url(../graphics/tp1_button_ro.jpg) no-repeat 0 0; }
+#menu ul li#opt3 a:hover { background: url(../graphics/q1_button_ro.jpg) no-repeat 0 0; }
+#menu ul li#opt4 a:hover { background: url(../graphics/sag1_button_ro.jpg) no-repeat 0 0; }
+#menu ul li#opt5 a:hover { background: url(../graphics/me1_button_ro.jpg) no-repeat 0 0; }
+#menu ul li#opt6 a:hover { background: url(../graphics/fe1_button_ro.jpg) no-repeat 0 0; }
+#menu ul li#opt7 a:hover { background: url(../graphics/cavs1_button_ro.jpg) no-repeat 0 0; }
+
+/* hide html text spans for image replacement */
+
+h1 span, h2 span, h3 span, h4 span, li span {display: none;}
+
+/* misc */
+
+.reset {
+  	display: block;
+  	clear: both;
+  	margin: 0;
+  	padding: 0;
+  	height: 1px;
+  	font-size: 1px;
+  	line-height: 1px;
+}
+
+.imagetable2 td {
+padding-left: 100px; 
+}

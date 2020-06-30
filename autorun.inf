@@ -1,0 +1,8 @@
+[Autorun]
+; /s parameter no longer needed for version 1.2
+open=AutoRunPro.exe
+action=AutoRunPro.exe
+; action new for Vista!
+
+[AutorunPro]
+Run1=start.htm
